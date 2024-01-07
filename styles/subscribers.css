@@ -1,0 +1,96 @@
+.profile-1-container,
+.profile-2-container,
+.profile-3-container,
+.profile-4-container,
+.profile-5-container,
+.profile-6-container,
+.profile-7-container,
+.profile-8-container,
+.profile-9-container,
+.profile-10-container,
+.profile-11-container,
+.profile-12-container
+{
+    position:relative;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-1-container .tooltip,
+.profile-2-container .tooltip,
+.profile-3-container .tooltip,
+.profile-4-container .tooltip,
+.profile-5-container .tooltip,
+.profile-6-container .tooltip,
+.profile-7-container .tooltip,
+.profile-8-container .tooltip,
+.profile-9-container .tooltip,
+.profile-10-container .tooltip,
+.profile-11-container .tooltip,
+.profile-12-container .tooltip
+{
+    
+    display:flex;
+    font-family:Roboto,Arial;
+    position :absolute;
+    top:40px;
+    left:40px;
+    background-color: rgb(247, 243, 243);
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:4px;
+    padding-right: 10px;
+    width:250px;
+    border:none;
+    border-radius: 6px;
+    opacity: 0;
+    box-shadow: 0 1px 5px rgb(0,0,0.25); 
+    align-items: center;
+
+
+    
+    transition: opacity 0.15s;
+}
+
+.img-1{
+    width:60px;
+    height: 60px;
+    border-radius: 35px;
+    
+}
+.info{
+    margin-left:10px;
+    margin-right: 50px;
+    
+}
+.channel-name{
+    font-size:16px;
+    display:inline-block;
+    white-space: nowrap;
+    margin-bottom:4px;
+    font-weight: 700;
+
+}
+.subscribers{
+    color:rgb(96,96,96);
+    white-space: nowrap;
+}
+
+
+
+.profile-1-container:hover .tooltip,
+.profile-2-container:hover .tooltip,
+.profile-3-container:hover .tooltip,
+.profile-4-container:hover .tooltip,
+.profile-5-container:hover .tooltip,
+.profile-6-container:hover .tooltip,
+.profile-7-container:hover .tooltip,
+.profile-8-container:hover .tooltip,
+.profile-9-container:hover .tooltip,
+.profile-10-container:hover .tooltip,
+.profile-11-container:hover .tooltip,
+.profile-12-container:hover .tooltip{
+    opacity:1;
+}
